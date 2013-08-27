@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @item.name %>
+</p>
+
+<p>
+  <b>Last price:</b>
+  <%= @item.last_price %>
+</p>
+
+<p>
+  <b>Number:</b>
+  <%= @item.number %>
+</p>
+
+<p>
+  <b>Unit:</b>
+  <%= @item.unit %>
+</p>
+
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
